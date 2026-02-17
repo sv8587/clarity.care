@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🩺 ClarityCare – AI Health Literacy Translator
 
-# Run and deploy your AI Studio app
+ClarityCare is an AI-powered web application that translates complex medical jargon into simple, easy-to-understand language.
 
-This contains everything you need to run your app locally.
+It helps bridge the empathy and language gap between healthcare professionals and patients by providing clear explanations, structured summaries, and reassuring guidance.
 
-View your app in AI Studio: https://ai.studio/apps/drive/12wimMCAbFiEmleoyiqlZe-ka28vimlL9
+---
 
-## Run Locally
+## 🌍 Live Demo
 
-**Prerequisites:**  Node.js
+🔗 [Add your deployed link here]
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📌 Problem Statement
+
+Medical diagnoses often contain complex terminology that can be difficult for patients to understand.  
+As a result:
+
+- Patients may feel confused or anxious  
+- Important instructions may be misunderstood  
+- Treatment adherence may decrease  
+
+ClarityCare simplifies medical language into clear, structured explanations at a middle-school reading level.
+
+---
+
+## ✨ Features
+
+- 📝 Paste any medical diagnosis or prescription text
+- 🧠 AI-powered simplification using Gemini API
+- 📖 Plain English explanation
+- 📌 Bullet-point summary
+- ✅ Do’s and Don’ts section
+- 💙 Reassuring explanation tone
+- ❓ Suggested questions to ask a doctor
+- ⚡ Clean, responsive UI
+- 🔐 Secure environment variable handling
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- React (Vite)
+- TypeScript
+- Tailwind CSS
+
+**Deployment**
+- Vercel
+
+---
+
+## 🔮 Future Improvements
+
+- 🌐 Multi-language support (Hindi, regional languages)
+- 📄 Download explanation as PDF
+- 🔊 Text-to-speech support
+- 🗂 Translation history
+- 🔐 Authentication for saved sessions
+- 📊 Analytics dashboard
+
+---
+
+## 💡 What I Learned
+
+- Integrating AI APIs into a frontend application
+- Secure environment variable handling
+- Structuring a scalable React + TypeScript project
+- Designing for clarity and accessibility
+- Prompt engineering for structured AI output
+
+---
+
+## 👩‍💻 Author
+
+**Stuti Verma**  
+B.Tech CSE Student  
+Passionate about building AI-powered solutions that create real-world impact.
+
+---
+
+## ⭐ If You Like This Project
+
+Give it a ⭐ on GitHub!
