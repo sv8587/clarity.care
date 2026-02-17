@@ -65,3 +65,13 @@ export const translateMedicalText = async (medicalText: string): Promise<Transla
     throw new Error("Received an invalid response format from the AI.");
   }
 };
+
+export async function translateMedicalText(text: string) {
+   return {
+      simpleExplanation: "This is a demo explanation.",
+      summary: "Demo summary.",
+      dosAndDonts: "Demo dos and don'ts.",
+      reassurance: "This is reassuring demo text.",
+      questionsToAsk: "What should I monitor?"
+   }
+}
